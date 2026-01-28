@@ -1,4 +1,4 @@
-# MIEX Cu–Mo Prospectivity (Notebook-only)
+# MIEX Cu–Mo Prospectivity
 
 This repository contains a single, refactored Jupyter notebook that reproduces the core workflow for **Cu–Mo anomaly / prospectivity modeling** with:
 - multi-source spatial feature engineering (map units, distances to structural line features)
@@ -55,10 +55,10 @@ Run cells top-to-bottom. The only required edits are in the **CONFIG** cell and 
 - **Knowledge priors (optional)**: embed deposit-model JSON text; compute similarity priors
 - **Modeling template**: spatial CV baseline vs. knowledge-augmented
 
-## Recommended repo layout (still notebook-only)
+## Recommended repo layout 
 ```
 .
-├── MIEX_apt8_c2_refactored_notebook_only.ipynb
+├── MIEX_NSAI_refactored.ipynb
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
