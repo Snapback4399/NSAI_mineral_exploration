@@ -46,8 +46,8 @@ NSAI_mineral_exploration/
 ├── .gitignore
 └── data/                  # user-provided, not tracked
 
-
 ---
+
 
 ## **Data Requirements**
 
