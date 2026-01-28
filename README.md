@@ -36,6 +36,7 @@ The implemented workflow consists of the following stages:
 
 ---
 
+```markdown
 ## **Repository Structure**
 
 ```text
@@ -44,8 +45,8 @@ NSAI_mineral_exploration/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-└── data/                  # user-provided, not tracked
-
+└── data/
+                
 ---
 
 
