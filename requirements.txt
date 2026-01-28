@@ -1,0 +1,9 @@
+numpy
+pandas
+geopandas
+shapely
+pyproj
+scikit-learn
+tqdm
+openai
+jupyterlab
