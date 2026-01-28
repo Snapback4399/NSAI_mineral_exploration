@@ -1,3 +1,4 @@
+
 # NSAI_mineral_exploration
 
 ---
@@ -38,17 +39,19 @@ The implemented workflow consists of the following stages:
 
 ## **Repository Structure**
 
-```text
-NSAI_mineral_exploration/
-├── MIEX_apt8_c2_refactored_notebook_only.ipynb
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── data/                  # user-provided, not tracked
+This repository follows a **notebook-centered design** intended to maximize transparency and reproducibility.
 
-                
+- The core workflow is implemented in a single refactored Jupyter notebook  
+  (`MIEX_NSAI_refactored.ipynb`).
+
+- Supporting files include:
+  - `README.md` for methodological documentation,
+  - `requirements.txt` for environment specification, and
+  - `.gitignore` for excluding data, caches, and environment-specific files.
+
+- User-provided datasets (e.g., geochemical CSV files, geological shapefiles, and deposit-model JSONs) are expected to reside in a local `data/` directory and are **not tracked** by version control.
+
 ---
-
 
 ## **Data Requirements**
 
